@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GomiFuego | Dulce por dentro, fuego por fuera</title>
+
+    <link rel="stylesheet" href="../Emprendimiento/CSS/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--Encabezado-->
+
+<header class="site-header">
+
+    <div class="header-inner">
+
+        <a href="#inicio" class="logo">Gomi<span>Fuego</span></a>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <nav id="mainNav">
+
+            <a href="#inicio">Inicio</a>
+
+            <a href="#productos">Productos</a>
+
+            <a href="#picante">Picante</a>
+
+            <a href="#nosotros">Nosotros</a>
+
+            <a href="#objetivos">Objetivos</a>
+
+            <a href="#ingredientes">Ingredientes</a>
+
+            <a href="#contacto">Contacto</a>
+
+            <button id="cartButton" class="cart-button">🛒<span id="cartCount">0</span></button>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+<!--Inicio-->
+
+<section id="inicio" class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-tag">🍬 EMPRENDIMIENTO ESCOLAR</span>
+
+        <h1>
+            DULCE POR DENTRO<br>
+            <span>FUEGO POR FUERA</span>
+        </h1>
+
+        <p>
+            Bienvenido a GomiFuego, donde las gomitas
+            se convierten en una experiencia llena de
+            sabor y picante.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#productos" class="primary-button">VER PRODUCTOS 🔥</a>
+
+            <a href="#nosotros" class="secondary-button">CONOCER MÁS</a>
+        </div>
+
+    </div>
+
+    <div class="hero-visual">
+
+        <div class="hero-circle">🍬</div>
+
+        <div class="hero-fire">🔥</div>
+
+    </div>
+
+</section>
+
+<!--Presentación-->
+
+<section class="section">
+
+    <div class="section-title">
+
+        <span>
+            GOMIFUEGO
+        </span>
+
+        <h2>
+            UNA EXPLOSIÓN DE SABOR
+        </h2>
+
+        <p>
+            Gomitas deliciosas con ese toque
+            picante que las hace diferentes.
+        </p>
+
+    </div>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+
+            <div class="info-icon">
+                🍬
+            </div>
+
+            <h3>
+                DULCES
+            </h3>
+
+            <p>
+                Gomitas llenas de sabor para
+                disfrutar en cualquier momento.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <div class="info-icon">
+                🌶️
+            </div>
+
+            <h3>
+                PICANTES
+            </h3>
+
+            <p>
+                Diferentes niveles para quienes
+                disfrutan una experiencia intensa.
+            </p>
+
+        </div>
+
+        <div class="info-card">
+
+            <div class="info-icon">
+                🔥
+            </div>
+
+            <h3>
+                DIVERTIDAS
+            </h3>
+
+            <p>
+                Una propuesta juvenil pensada
+                para compartir y disfrutar.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Pestaña Productos-->
+
+<section
+    id="productos"
+    class="section products-section">
+
+    <div class="section-title">
+
+        <span>
+            CATÁLOGO
+        </span>
+
+        <h2>
+            NUESTROS PRODUCTOS
+        </h2>
+
+        <p>
+            Elige tu gomita y prepárate para
+            sentir el fuego. 🔥
+        </p>
+
+    </div>
+
+    <div class="products-grid">
+
+        <!-- PRODUCTO 1 -->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                🍬
+            </div>
+
+            <span class="product-level">
+                NIVEL 1
+            </span>
+
+            <h3>
+                GomiFuego Suave
+            </h3>
+
+            <p>
+                El toque picante perfecto
+                para comenzar.
+            </p>
+
+            <div class="product-bottom">
+
+                <strong>
+                    $1.00
+                </strong>
+
+                <button class="buy-btn" data-name="GomiFuego Suave" data-price="1.00">AGREGAR 🔥</button>
+
+            </div>
+
+        </article>
+
+        <!--Producto 2-->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                🌶️🍬
+            </div>
+
+            <span class="product-level">
+                NIVEL 2
+            </span>
+
+            <h3>
+                GomiFuego Medio
+            </h3>
+
+            <p>
+                Más sabor, más picante
+                y mucha diversión.
+            </p>
+
+            <div class="product-bottom">
+
+                <strong>
+                    $1.50
+                </strong>
+
+                <button class="buy-btn"data-name="GomiFuego Medio" data-price="1.50">
+                    AGREGAR 🔥
+                </button>
+
+            </div>
+
+        </article>
+
+        <!--Producto 3-->
+
+        <article class="product-card">
+
+            <div class="product-image">
+                🔥🍬
+            </div>
+
+            <span class="product-level">
+                NIVEL 3
+            </span>
+
+            <h3>
+                GomiFuego Extremo
+            </h3>
+
+            <p>
+                Para quienes buscan una
+                experiencia mucho más intensa.
+            </p>
+
+            <div class="product-bottom">
+
+                <strong>
+                    $2.00
+                </strong>
+
+                <button class="buy-btn" data-name="GomiFuego Extremo" data-price="2.00">
+                    AGREGAR 🔥
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!--Niveles Picante-->
+
+<section id="picante" class="section dark-section">
+
+    <div class="section-title">
+
+        <span>
+            ¿CUÁNTO FUEGO SOPORTAS?
+        </span>
+
+        <h2>
+            NIVELES DE PICANTE 🌶️
+        </h2>
+
+        <p>
+            Escoge el nivel que más te guste.
+        </p>
+
+    </div>
+
+    <div class="levels-grid">
+
+        <div class="level-card">
+
+            <div class="level-number">
+                01
+            </div>
+
+            <div>
+                <h3>
+                    SUAVE
+                </h3>
+
+                <p>
+                    Un toque ligero de picante
+                    acompañado del sabor dulce.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="level-card">
+
+            <div class="level-number">
+                02
+            </div>
+
+            <div>
+                <h3>
+                    MEDIO
+                </h3>
+
+                <p>
+                    Una combinación equilibrada
+                    entre dulce y picante.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="level-card">
+
+            <div class="level-number">
+                03
+            </div>
+
+            <div>
+                <h3>
+                    EXTREMO
+                </h3>
+
+                <p>
+                    Una experiencia intensa para
+                    los amantes del picante.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Pestaña Nosotros-->
+
+<section
+    id="nosotros"
+    class="section">
+
+    <div class="section-title">
+
+        <span>
+            CONÓCENOS
+        </span>
+
+        <h2>
+            SOBRE GOMIFUEGO
+        </h2>
+
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <h3>
+                ¿QUIÉNES SOMOS?
+            </h3>
+
+            <p>
+                GomiFuego es un emprendimiento escolar
+                enfocado en la elaboración y presentación
+                de gomitas picantes.
+            </p>
+
+            <p>
+                Nuestra propuesta combina el sabor dulce
+                de las gomitas con diferentes niveles de
+                picante, creando una experiencia diferente
+                y divertida.
+            </p>
+
+        </div>
+
+        <div class="about-highlight">
+
+            <div class="big-fire">
+                🔥
+            </div>
+
+            <h3>
+                DULCE POR DENTRO
+            </h3>
+
+            <h3 class="cyan-text">
+                FUEGO POR FUERA
+            </h3>
+
+        </div>
+
+    </div>
+
+    <div class="mission-grid">
+
+        <div class="mission-card">
+
+            <span>
+                MISIÓN
+            </span>
+
+            <p>
+                Ofrecer una propuesta de gomitas picantes
+                que combine sabor, creatividad y una
+                experiencia atractiva para nuestros clientes.
+            </p>
+
+        </div>
+
+        <div class="mission-card">
+
+            <span>
+                VISIÓN
+            </span>
+
+            <p>
+                Desarrollar una propuesta de emprendimiento
+                juvenil que se destaque por su creatividad,
+                presentación y variedad.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Pestaña objetivos-->
+
+<section id="objetivos" class="section dark-section">
+
+    <div class="section-title">
+
+        <span>
+            NUESTRO PROPÓSITO
+        </span>
+
+        <h2>
+            OBJETIVOS 🎯
+        </h2>
+
+    </div>
+
+    <div class="objectives-grid">
+
+        <div class="objective-card">
+
+            <span>
+                01
+            </span>
+
+            <h3>
+                PRODUCTO
+            </h3>
+
+            <p>
+                Presentar gomitas picantes con una
+                propuesta atractiva y diferente.
+            </p>
+
+        </div>
+
+        <div class="objective-card">
+
+            <span>
+                02
+            </span>
+
+            <h3>
+                CREATIVIDAD
+            </h3>
+
+            <p>
+                Desarrollar una imagen juvenil y
+                llamativa para el emprendimiento.
+            </p>
+
+        </div>
+
+        <div class="objective-card">
+
+            <span>
+                03
+            </span>
+
+            <h3>
+                EMPRENDIMIENTO
+            </h3>
+
+            <p>
+                Aplicar conocimientos adquiridos
+                durante el proyecto escolar.
+            </p>
+
+        </div>
+
+        <div class="objective-card">
+
+            <span>
+                04
+            </span>
+
+            <h3>
+                EXPERIENCIA
+            </h3>
+
+            <p>
+                Crear una experiencia agradable
+                para quienes prueben el producto.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Pestaña Ingredientes-->
+
+<section id="ingredientes" class="section">
+
+    <div class="section-title">
+
+        <span>
+            LO QUE UTILIZAMOS
+        </span>
+
+        <h2>
+            INGREDIENTES Y MATERIALES 🧂
+        </h2>
+
+        <p>
+            Elementos utilizados para preparar y
+            presentar nuestro producto.
+        </p>
+
+    </div>
+
+    <div class="ingredients-grid">
+
+        <div class="ingredient-card">
+
+            <div>
+                🍬
+            </div>
+
+            <h3>
+                GOMITAS
+            </h3>
+
+            <p>
+                Base principal de nuestro producto.
+            </p>
+
+        </div>
+
+        <div class="ingredient-card">
+
+            <div>
+                🌶️
+            </div>
+
+            <h3>
+                PICANTE
+            </h3>
+
+            <p>
+                Ingrediente utilizado para darle
+                el característico sabor de GomiFuego.
+            </p>
+
+        </div>
+
+        <div class="ingredient-card">
+
+            <div>
+                🧂
+            </div>
+
+            <h3>
+                CONDIMENTOS
+            </h3>
+
+            <p>
+                Elementos utilizados para
+                complementar el sabor.
+            </p>
+
+        </div>
+
+        <div class="ingredient-card">
+
+            <div>
+                📦
+            </div>
+
+            <h3>
+                EMPAQUE
+            </h3>
+
+            <p>
+                Material utilizado para presentar
+                nuestro producto.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--Promoción-->
+
+<section class="promo-section">
+
+    <div>
+
+        <span>
+            ¿TE ATREVES?
+        </span>
+
+        <h2>
+            PRUEBA EL FUEGO 🔥
+        </h2>
+
+        <p>
+            Elige tu nivel de picante y descubre
+            tu GomiFuego favorito.
+        </p>
+
+    </div>
+
+    <a href="#productos" class="primary-button">
+        VER PRODUCTOS
+    </a>
+
+</section>
+
+<!--Pestaña Contacto-->
+
+<section id="contacto" class="section dark-section">
+
+    <div class="section-title">
+
+        <span>
+            ENCUÉNTRANOS
+        </span>
+
+        <h2>
+            CONTACTO 📞
+        </h2>
+
+        <p>
+            Conoce nuestra propuesta en la feria
+            de emprendimiento escolar.
+        </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                🏫
+            </div>
+
+            <h3>
+                INSTITUCIÓN
+            </h3>
+
+            <p>
+                Sudamericano
+            </p>
+
+        </div>
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                🎓
+            </div>
+
+            <h3>
+                PROYECTO
+            </h3>
+
+            <p>
+                Emprendimiento escolar
+            </p>
+
+        </div>
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                🍬
+            </div>
+
+            <h3>
+                GOMIFUEGO
+            </h3>
+
+            <p>
+                Dulce por dentro, fuego por fuera
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="contact-message">
+
+        <h3>
+            ¡GRACIAS POR VISITARNOS! 🔥
+        </h3>
+
+        <p>
+            Esperamos que disfrutes nuestra propuesta
+            y te atrevas a probar el sabor de GomiFuego.
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+<!--Carrito-->
+
+<div
+    id="cartBackdrop"
+    class="cart-backdrop">
+</div>
+
+<aside
+    id="cartPanel"
+    class="cart-panel">
+
+    <div class="cart-header">
+
+        <h2>
+            TU CARRITO 🛒
+        </h2>
+
+        <button
+            id="closeCart">
+
+            ✕
+
+        </button>
+
+    </div>
+
+
+    <div
+        id="cartItems"
+        class="cart-items">
+
+        <p class="empty">
+            Tu carrito está vacío.
+        </p>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total-row">
+
+            <span>
+                TOTAL
+            </span>
+
+            <strong>
+                $<span id="cartTotalPanel">0.00</span>
+            </strong>
+
+        </div>
+
+
+        <button
+            id="clearCart"
+            class="clear-cart">
+
+            VACIAR CARRITO
+
+        </button>
+
+
+        <button
+            id="checkout"
+            class="checkout">
+
+            FINALIZAR PEDIDO 🔥
+
+        </button>
+
+    </div>
+
+</aside>
+
+<!--Mensaje-->
+
+<div
+    id="toast"
+    class="toast">
+
+</div>
+
+<!--Botón Arriba-->
+
+<button
+    id="toTop"
+    class="to-top">
+
+    ↑
+
+</button>
+
+<!--Pie de Página-->
+
+<footer>
+
+    <div class="footer-logo">
+
+        Gomi<span>Fuego</span>
+
+    </div>
+
+    <p>
+        Dulce por dentro… fuego por fuera. 🔥
+    </p>
+
+    <p class="copyright">
+        Proyecto de emprendimiento escolar
+    </p>
+
+</footer>
+
+<script src="../Emprendimiento/JavaScript/script.js"></script>
+
+</body>
+
+</html>
